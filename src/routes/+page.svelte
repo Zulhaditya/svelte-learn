@@ -12,6 +12,8 @@
   import State from "./State.svelte";
   import DomEvents from "./DOMEvents.svelte";
   import ComponentEvents from "./ComponentEvents.svelte";
+  import NumericInputs from "./NumericInputs.svelte";
+  import CheckboxInputs from "./CheckboxInputs.svelte";
 
   let name = "Svelte";
   // let src = "/static/favicon.png";
@@ -39,6 +41,8 @@
   <!-- <DomEvents /> -->
   <Capturing />
   <ComponentEvents />
+  <NumericInputs />
+  <CheckboxInputs />
 </div>
 
 <!-- style tag digunakan untuk styling dengan css atau tailwind -->
