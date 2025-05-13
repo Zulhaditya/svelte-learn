@@ -14,6 +14,7 @@
   import ComponentEvents from "./ComponentEvents.svelte";
   import NumericInputs from "./NumericInputs.svelte";
   import CheckboxInputs from "./CheckboxInputs.svelte";
+  import SelectBindings from "./SelectBindings.svelte";
 
   let name = "Svelte";
   // let src = "/static/favicon.png";
@@ -43,6 +44,7 @@
   <ComponentEvents />
   <NumericInputs />
   <CheckboxInputs />
+  <SelectBindings />
 </div>
 
 <!-- style tag digunakan untuk styling dengan css atau tailwind -->
