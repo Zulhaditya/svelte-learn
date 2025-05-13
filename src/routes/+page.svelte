@@ -2,6 +2,7 @@
 <script lang="ts">
   import Counter from "./Counter.svelte";
   import DeepState from "./DeepState.svelte";
+  import EachStatement from "./EachStatement.svelte";
   import Effects from "./Effects.svelte";
   import IfStatement from "./IfStatement.svelte";
   import Nested from "./Nested.svelte";
@@ -28,6 +29,7 @@
 <Nested jawaban={"secret"} />
 <Nested />
 <IfStatement />
+<EachStatement />
 
 <!-- style tag digunakan untuk styling dengan css atau tailwind -->
 <style>
