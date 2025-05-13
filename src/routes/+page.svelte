@@ -1,6 +1,8 @@
 <!-- script tag untuk javascript/typescript-->
 <script lang="ts">
+  import Counter from "./Counter.svelte";
   import DeepState from "./DeepState.svelte";
+  import Effects from "./Effects.svelte";
   import Nested from "./Nested.svelte";
   import State from "./State.svelte";
 
@@ -21,6 +23,8 @@
 <Nested />
 <State />
 <DeepState />
+<Effects />
+<Counter />
 
 <!-- style tag digunakan untuk styling dengan css atau tailwind -->
 <style>
