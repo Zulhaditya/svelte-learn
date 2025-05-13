@@ -3,6 +3,7 @@
   import Counter from "./Counter.svelte";
   import DeepState from "./DeepState.svelte";
   import Effects from "./Effects.svelte";
+  import IfStatement from "./IfStatement.svelte";
   import Nested from "./Nested.svelte";
   import State from "./State.svelte";
 
@@ -26,6 +27,7 @@
 <Counter />
 <Nested jawaban={"secret"} />
 <Nested />
+<IfStatement />
 
 <!-- style tag digunakan untuk styling dengan css atau tailwind -->
 <style>
