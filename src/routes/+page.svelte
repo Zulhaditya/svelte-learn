@@ -16,6 +16,7 @@
   import CheckboxInputs from "./CheckboxInputs.svelte";
   import SelectBindings from "./SelectBindings.svelte";
   import GroupInputs from "./GroupInputs.svelte";
+  import TextAreaInputs from "./TextAreaInputs.svelte";
 
   let name = "Svelte";
   // let src = "/static/favicon.png";
@@ -47,6 +48,7 @@
   <CheckboxInputs />
   <SelectBindings />
   <GroupInputs />
+  <TextAreaInputs />
 </div>
 
 <!-- style tag digunakan untuk styling dengan css atau tailwind -->
