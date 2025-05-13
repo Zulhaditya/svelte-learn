@@ -15,6 +15,7 @@
   import NumericInputs from "./NumericInputs.svelte";
   import CheckboxInputs from "./CheckboxInputs.svelte";
   import SelectBindings from "./SelectBindings.svelte";
+  import GroupInputs from "./GroupInputs.svelte";
 
   let name = "Svelte";
   // let src = "/static/favicon.png";
@@ -45,6 +46,7 @@
   <NumericInputs />
   <CheckboxInputs />
   <SelectBindings />
+  <GroupInputs />
 </div>
 
 <!-- style tag digunakan untuk styling dengan css atau tailwind -->
