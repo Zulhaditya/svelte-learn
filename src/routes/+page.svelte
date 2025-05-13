@@ -5,7 +5,7 @@
   import State from "./State.svelte";
 
   let name = "Svelte";
-  let src = "/static/favicon.png";
+  // let src = "/static/favicon.png";
 </script>
 
 <!-- gunakan {} untuk menampilkan variabel dan menjalankan javascript -->
@@ -15,7 +15,7 @@
     Kunjungi <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> untuk
     lihat dokumentasi lengkapnya
   </p>
-  <img {src} alt={name} />
+  <!-- <img {src} alt={name} /> -->
 </div>
 
 <Nested />

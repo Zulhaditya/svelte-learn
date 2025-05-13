@@ -4,7 +4,11 @@
 
   function tambahAngka() {
     angka[angka.length] = angka.length + 1;
+
+    // inspecting nilai state tidak bisa cara biasa harus menggunakan $inspect atau $state.snapshot
+    // console.log($state.snapshot(angka));
   }
+  $inspect(angka);
 </script>
 
 <p>{angka.join(" + ")} = {total}</p>
