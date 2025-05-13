@@ -1,5 +1,6 @@
 <!-- script tag untuk javascript/typescript-->
 <script lang="ts">
+  import AwaitBlock from "./AwaitBlock.svelte";
   import Counter from "./Counter.svelte";
   import DeepState from "./DeepState.svelte";
   import EachStatement from "./EachStatement.svelte";
@@ -15,29 +16,32 @@
 
 <!-- gunakan {} untuk menampilkan variabel dan menjalankan javascript -->
 <div>
-  <h1>Belajar {name.toUpperCase()}!</h1>
+  <h1>Basic {name}</h1>
   <p>
     Kunjungi <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> untuk
     lihat dokumentasi lengkapnya
   </p>
-  <!-- <img {src} alt={name} /> -->
-</div>
 
-<State />
-<DeepState />
-<Effects />
-<Counter />
-<Nested jawaban={"secret"} />
-<Nested />
-<IfStatement />
-<EachStatement />
-<KeyedEachStatement />
+  <!-- <img {src} alt={name} /> -->
+  <State />
+  <DeepState />
+  <Effects />
+  <Counter />
+  <Nested jawaban={"secret"} />
+  <Nested />
+  <IfStatement />
+  <EachStatement />
+  <KeyedEachStatement />
+  <AwaitBlock />
+</div>
 
 <!-- style tag digunakan untuk styling dengan css atau tailwind -->
 <style>
+  div {
+    max-width: fit-content;
+    margin-inline: auto;
+  }
   p {
-    color: goldenrod;
-    font-family: "Comic Sans MS", cursive;
-    font-size: 2em;
+    color: gray;
   }
 </style>
