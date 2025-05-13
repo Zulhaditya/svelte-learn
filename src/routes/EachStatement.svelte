@@ -1,5 +1,5 @@
 <script lang="ts">
-  const colors = ["red", "yellow", "green", "yellow"];
+  const colors = ["red", "yellow", "green"];
   let selected = $state(colors[0]);
 </script>
 
@@ -12,29 +12,15 @@
 {/if}
 
 <div>
-  <button
-    style="background: red"
-    aria-label="red"
-    aria-current={selected === "red"}
-    onclick={() => (selected = "red")}
-  >
-  </button>
-
-  <button
-    style="background: yellow"
-    aria-label="yellow"
-    aria-current={selected === "yellow"}
-    onclick={() => (selected = "yellow")}
-  >
-  </button>
-
-  <button
-    style="background: green"
-    aria-label="green"
-    aria-current={selected === "green"}
-    onclick={() => (selected = "green")}
-  >
-  </button>
+  {#each colors as color, i}
+    <button
+      style="background: {color}"
+      aria-label={color}
+      aria-current={selected === color}
+      onclick={() => (selected = color)}
+      >{i + 1}
+    </button>
+  {/each}
 </div>
 
 <style>
