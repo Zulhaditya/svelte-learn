@@ -1,5 +1,6 @@
 <!-- script tag untuk javascript/typescript-->
 <script lang="ts">
+  import DeepState from "./DeepState.svelte";
   import Nested from "./Nested.svelte";
   import State from "./State.svelte";
 
@@ -19,6 +20,7 @@
 
 <Nested />
 <State />
+<DeepState />
 
 <!-- style tag digunakan untuk styling dengan css atau tailwind -->
 <style>
