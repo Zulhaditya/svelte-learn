@@ -1,15 +1,17 @@
 <!-- script tag untuk javascript/typescript-->
 <script lang="ts">
   import AwaitBlock from "./AwaitBlock.svelte";
+  import Capturing from "./Capturing.svelte";
   import Counter from "./Counter.svelte";
   import DeepState from "./DeepState.svelte";
-  import DomEvents from "./DOMEvents.svelte";
   import EachStatement from "./EachStatement.svelte";
   import Effects from "./Effects.svelte";
   import IfStatement from "./IfStatement.svelte";
   import KeyedEachStatement from "./KeyedEachStatement.svelte";
   import Nested from "./Nested.svelte";
   import State from "./State.svelte";
+  import DomEvents from "./DOMEvents.svelte";
+  import ComponentEvents from "./ComponentEvents.svelte";
 
   let name = "Svelte";
   // let src = "/static/favicon.png";
@@ -34,7 +36,9 @@
   <EachStatement />
   <KeyedEachStatement />
   <AwaitBlock />
-  <DomEvents />
+  <!-- <DomEvents /> -->
+  <Capturing />
+  <ComponentEvents />
 </div>
 
 <!-- style tag digunakan untuk styling dengan css atau tailwind -->
