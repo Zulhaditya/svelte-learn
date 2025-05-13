@@ -5,6 +5,7 @@
   import EachStatement from "./EachStatement.svelte";
   import Effects from "./Effects.svelte";
   import IfStatement from "./IfStatement.svelte";
+  import KeyedEachStatement from "./KeyedEachStatement.svelte";
   import Nested from "./Nested.svelte";
   import State from "./State.svelte";
 
@@ -30,6 +31,7 @@
 <Nested />
 <IfStatement />
 <EachStatement />
+<KeyedEachStatement />
 
 <!-- style tag digunakan untuk styling dengan css atau tailwind -->
 <style>
