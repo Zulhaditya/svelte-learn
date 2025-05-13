@@ -3,6 +3,7 @@
   import AwaitBlock from "./AwaitBlock.svelte";
   import Counter from "./Counter.svelte";
   import DeepState from "./DeepState.svelte";
+  import DomEvents from "./DOMEvents.svelte";
   import EachStatement from "./EachStatement.svelte";
   import Effects from "./Effects.svelte";
   import IfStatement from "./IfStatement.svelte";
@@ -33,6 +34,7 @@
   <EachStatement />
   <KeyedEachStatement />
   <AwaitBlock />
+  <DomEvents />
 </div>
 
 <!-- style tag digunakan untuk styling dengan css atau tailwind -->
