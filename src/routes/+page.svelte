@@ -20,11 +20,12 @@
   <!-- <img {src} alt={name} /> -->
 </div>
 
-<Nested />
 <State />
 <DeepState />
 <Effects />
 <Counter />
+<Nested jawaban={"secret"} />
+<Nested />
 
 <!-- style tag digunakan untuk styling dengan css atau tailwind -->
 <style>
