@@ -1,5 +1,6 @@
 <!-- script tag untuk javascript/typescript-->
 <script lang="ts">
+  import DomEvents from "./DOMEvents.svelte";
   import AwaitBlock from "./AwaitBlock.svelte";
   import Capturing from "./Capturing.svelte";
   import Counter from "./Counter.svelte";
@@ -10,13 +11,13 @@
   import KeyedEachStatement from "./KeyedEachStatement.svelte";
   import Nested from "./Nested.svelte";
   import State from "./State.svelte";
-  import DomEvents from "./DOMEvents.svelte";
   import ComponentEvents from "./ComponentEvents.svelte";
   import NumericInputs from "./NumericInputs.svelte";
   import CheckboxInputs from "./CheckboxInputs.svelte";
   import SelectBindings from "./SelectBindings.svelte";
   import GroupInputs from "./GroupInputs.svelte";
   import TextAreaInputs from "./TextAreaInputs.svelte";
+  import Transition from "./Transition.svelte";
 
   let name = "Svelte";
   // let src = "/static/favicon.png";
@@ -31,6 +32,7 @@
   </p>
 
   <!-- <img {src} alt={name} /> -->
+  <!-- <DomEvents /> -->
   <State />
   <DeepState />
   <Effects />
@@ -41,7 +43,6 @@
   <EachStatement />
   <KeyedEachStatement />
   <AwaitBlock />
-  <!-- <DomEvents /> -->
   <Capturing />
   <ComponentEvents />
   <NumericInputs />
@@ -49,6 +50,7 @@
   <SelectBindings />
   <GroupInputs />
   <TextAreaInputs />
+  <Transition />
 </div>
 
 <!-- style tag digunakan untuk styling dengan css atau tailwind -->
